@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+<script src="semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+
+{{> menus}}
+
+  
+ <button class="ui inverted pink button">{{message}}</button>
+
+ <div class="ui vertical menu">
+  <a class="active teal item">
+    Inbox
+    <div class="ui teal left pointing label">1</div>
+  </a>
+  <a class="item">
+    Spam
+    <div class="ui label">51</div>
+  </a>
+  <a class="item">
+    Updates
+    <div class="ui label">1</div>
+  </a>
+  <div class="item">
+    <div class="ui transparent icon input">
+      <input type="text" placeholder="Search mail...">
+      <i class="search icon"></i>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "reminder-project",
+  "version": "1.0.0",
+  "description": "JBLFMU-Arevalo Reminder Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Merlito",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
+    "semantic-ui": "^2.2.13"
+  }
+}
